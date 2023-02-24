@@ -1,0 +1,10 @@
+.images{
+    max-width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+body{
+    background-color: rgb(228, 153, 165);
+}
