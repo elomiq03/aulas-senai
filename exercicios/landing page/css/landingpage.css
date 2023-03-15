@@ -1,0 +1,212 @@
+body{
+    background-color: #000000;
+    margin: 50px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Formatação do cabecalho*/
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul{
+    display: flex;
+    margin: 30px 0 0 50px;
+}
+
+a{
+    padding: 40px;
+    margin-right: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+a:hover{
+    color: rgb(133, 4, 255) ;
+    transition: 0.2s;
+    
+}
+
+.pedido{
+    border: 2px solid rgb(133, 4, 255);
+    border-radius: 20px;
+    padding: 10px;
+ }
+
+ .pedido:hover{
+    background-color:rgb(133, 4, 255) ;
+    color: white;
+ }
+
+ li{
+    list-style: none;
+ }
+
+ #opçoes{
+    color: white;
+    flex-direction: column;
+    margin: 5px;
+    position: absolute;
+    display: none;
+ }
+
+ .opçoes_1{
+    padding: 10px;
+   
+ }
+
+ .opçoes_1:hover{
+    color: rgb(133, 4, 255) ;
+ }
+
+ #cardapio:hover ul{
+    display: block;
+ }
+
+ /*Fim da formatação do cabecalho*/
+
+ /*Início da formatação do corpo*/
+
+#burguer{
+    width: 230px;
+    height: 250px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    margin:0 30px 0 0;
+}
+
+#roxo{
+    color: rgb(133, 4, 255);
+}
+
+p{
+    color: white;
+    font-size: 15px;
+}
+
+#hamburguer{
+    width: 900px;
+    height: 500px;
+    margin:0 0 30px 30px ;  
+}
+
+.corpo{
+    display: flex;
+   
+}
+
+#whatsapp{
+    margin-left: 0;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+#zap{
+    height: 100px;
+
+}
+ .perguntas{
+    margin-bottom: 30px;
+    cursor: pointer;
+ }
+
+ input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+ }
+
+ button{
+    background-color: rgb(133, 4, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+ }
+
+ button:hover{
+    background-color: rgb(133, 4, 255);
+    opacity: 0.8;
+    transition: 0.2s;
+ }
+
+ /*Fim da formatação do corpo*/
+ /*Inicio da formataçãp do Sobre Nós*/
+ 
+
+ .sobrenos{
+    border-top: 1px solid rgb(255, 255, 255);
+ }
+
+ .sobrenos{
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+ }
+
+ #banner_2{
+    width: 500px;
+    height: 700px;
+    margin: 100px ;
+ }
+
+ .texto_sobre{
+    margin: 300px 0 0 20px;
+ }
+
+.localizaçao{
+    text-align: center;
+    font-size: 15px;
+}
+
+#redes_sociais{
+    display: flex;
+    margin: 0 0 0 430px;
+}
+
+/*fim fda formatação do sobre nos*/
+/*--Inicio da formatação dos serviços--*/
+
+#serviços{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    display: grid;
+    grid-template-areas: 
+    "card1 card2 card3"
+    "card4 card5 card6";
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.serviços_item{
+    background-color: rgb(33, 33, 33);
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+}
+
+#item_1{ grid-area: card1;}
+#item_2{ grid-area: card2;}
+#item_3{ grid-area: card3;}
+#item_4{ grid-area: card4;}
+#item_5{ grid-area: card5;}
+#item_6{ grid-area: card6;}
+
+.serviços_item img{
+    max-width: 50px;
+}
+
+.serviços_item img:hover{
+    max-width: 75px;
+    transition: 400ms linear;
+}

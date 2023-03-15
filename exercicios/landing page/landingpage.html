@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/landingpage.css">
+    <title>Best Burguer</title>
+    <link rel="icon" href="./imagens/favicon.png"> <!--icone da página-->
+</head>
+<body>
+  <!--Inicio do cabecalho--> 
+ <section class="cabecalho">
+     <img id="burguer" src="./imagens/logo_semfundo.png" alt="">
+    <nav> <!--Menu-->
+        <ul id="menu" > <!--criação do ul-->
+            <li><a href="">Home</a></li> <!--lista do menu-->
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li id="cardapio" > <a href="">Cardápio</a> 
+                <ul id="opçoes" > <!--menu dentro de um menu-->
+                    <li class="opçoes_1" >Hambúrguer</li>
+                    <li class="opçoes_1" >Porções</li>
+                    <li class="opçoes_1" >Bebidas</li> 
+                    <li class="opçoes_1" >Pizzas</li>
+                    <li class="opçoes_1" >Doces</li>
+                    <li class="opçoes_1" >Milk-shakes</li><!--fim do menu dentro do menu-->
+                </ul>
+            </li>
+            <li ><a class="pedido"href="">Fazer o pedido</a></li> <!--fim da lista do menu-->
+        </ul>
+    </nav>  <!--fim do menu-->
+ </section>
+  <!--fim do cabecalho-->
+ <section class="corpo"> <!--Inicio do corpo -->
+    <div class="texto">
+          <li><h1 id="roxo">Increva-se no grupo</h1> <!--texto para chamar as pessoas para o zap-->
+         <h1>do WhatsApp</h1></li> 
+         <p>Hmm, está sentindo este cheirinho?Acho que tem <br> hambúrguer na área! <br>Resceba semanalmente nossas promoções direto no seu <br> WhatsApp! </p>
+        
+        <div class="perguntas"> <!--inicio do formulario-->
+         <input type="text" name="nome" id="" placeholder="Nome" >
+        </div>
+
+        <div class="perguntas">
+         <input type="tel" name="telefone" id="" placeholder="Celular" >
+        </div>
+         <button>Enviar</button> <!--fim do formulario-->
+        
+    </div>
+      
+    <div class="foto"> <!--banner principal-->
+        <img id="hamburguer" src="./imagens/Hamburger.png" alt="">
+    </div>
+ </section>
+ 
+ <div id="whatsapp"> <!--whatsapp fixo-->
+    <a href="https://www.whatsapp.com/?lang=pt_br"> <img id="zap" src="./imagens/whatsapp.png" alt=""> </a>
+</div>
+
+<section id="sobre" class="sobrenos"> <!--inicio do sobre nos-->
+  <img id="banner_2" src="./imagens/banner2.jpg" alt=""> <!--banner 2-->
+    <div class="texto_sobre">
+        <h1>Sobre nós!</h1>  <!--texto sobre nos-->
+        <p>Somos uma hamburgueria temática em livros e seus <br> universos!. Disponibilizamos alguns papeis para você <br> colocar suas melhores teorias! e os melhores sploires sobre seu livro favorito! </p>
+        
+        <p>Temos lanches temático com nomes de seus personagens favoritos! <br> os preços dos lanches variam-se entre R$15,00 à R$45,00 <br> as porções entre R$20,00 à R$70,00 <br> e as nossas bebidas entre R$3,00 à R$35,00</p>
+    </div>
+
+</section> 
+
+<section id="serviços"> <!--inicio da parte serviços-->
+    <div class="serviços_item" id="item_1">  <!--item1-->
+       <img src="./imagens/burger.png" alt="">  
+       <p>Hambúrguer</p>  
+    </div>
+
+    <div class="serviços_item" id="item_2"> <!--item2-->
+        <img src="./imagens/fries.png" alt="">  
+        <p>Porções</p>  
+     </div>
+
+     <div class="serviços_item" id="item_3"> <!--item3-->
+        <img src="./imagens/soft-drink.png" alt="">  
+        <p>Bebidas</p>  
+     </div>
+
+     <div class="serviços_item" id="item_4"> <!--item4-->
+        <img src="./imagens/pizza.png" alt="">  
+        <p>Pizzas</p>  
+     </div>
+
+     <div class="serviços_item" id="item_5"> <!--item5-->
+        <img src="./imagens/piece-of-cake.png" alt="">  
+        <p> Doces</p>  
+     </div>
+
+     <div class="serviços_item" id="item_6"> <!--item6-->
+        <img src="./imagens/milkshake.png" alt="">  
+        <p>milk-shakes</p>  
+     </div>
+
+</section>
+
+</body> 
+
+<footer id="rodape"> <!--criação de um footer-->
+  <nav id="redes_sociais">
+    <ul id="fotinhas" > <!--criação de uma lista para as redes sociais-->
+        <li class="icone" id="facebook" ><a href="https://pt-br.facebook.com/"> <img src="./imagens/facebook.png" alt="" width="40px" height="40px"> </a> </li>
+        <li class="icone" id="insta" ><a href="https://www.instagram.com/"> <img src="./imagens/instagram.png" alt="" width="40px" height="40px" > </a> </li>
+        <li class="icone" id="whats"><a href="https://www.whatsapp.com/?lang=pt_br"> <img src="./imagens/whatsapp.png" alt="" width="40px" height="40px" ></a></li>
+    </ul>
+  </nav> <!--fim da lista-->
+
+    <div class="localizaçao"> <!--localização do restaurante-->
+        <p>Rua Itatipiramba, n°1000, Jd das Maritacas Itapira/SP</p>
+    </div>
+</footer> <!--fim do footer-->
+</html>
