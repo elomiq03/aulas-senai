@@ -1,0 +1,61 @@
+
+
+
+
+body{
+    background-image:url(./imgcerta.png);
+    background-size: 100%;
+    color: white;
+}
+
+/*início do sobre*/
+
+
+/*arrumando a section class sobre*/
+.sobre{ 
+    background-color: rgba(20, 20, 81, 0.73);
+    display: flex;
+    max-width: 900px;
+    margin-left: 300px;
+    border: 10px solid rgba(231, 219, 255, 0.549);
+    border-radius: 10px;
+}
+
+/*h1 class top_1*/
+.top_1{ 
+text-align: center;
+font-size: 30px;
+color: rgb(217, 221, 255);
+}
+
+/* parágrafo dos textos*/
+.texto_sobre{
+font-size: 20px;
+color: rgb(186, 194, 254);
+padding-top: 20px;
+}
+
+/*tamanho da imagem logo*/
+#imagem_sobre{ 
+ height: 500px;
+ width: 500px;
+}
+
+/*div dos p e h1*/
+.texto_top_1{ 
+padding-top: 50px;
+padding-right:70px;
+}
+
+
+/*início home*/
+
+
+/*imagem fixa no fundo*/
+#imagem_fundo{
+    height: 1200px;
+    width: 1200px;
+}
+
+
+    
