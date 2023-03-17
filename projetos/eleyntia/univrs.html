@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/univrs.css">
+    <link rel="stylesheet" href="./css/ferramenta.css">
     <title>univers</title>
 </head>
 
 <header>
+   <div id="menu_fixo">
+     <figure class="home">
+         <img src="./images/logo.png" alt="" id="imagem_topo">
+         <h1>Univers</h1>
+    </figure>
+       
     <nav class="menu">
-       <figure class="home">
-        <img src="" alt="" id="logo_home">
-        <h1>Univers</h1>
-       </figure>
-
         <ul>
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Ferramentas</li>
-            <li>Produtos</li>
-            <li>Login</li>
+           <a class="estilo" href=""> <li class="opcoes">Home</li></a>
+           <a class="estilo" href=""> <li class="opcoes">Sobre</li></a> 
+           <a class="estilo" href=""> <li class="opcoes">Ferramentas</li></a> 
+           <a class="estilo" href=""> <li class="opcoes">Produtos</li></a>
+           <a class="estilo" href=""> <li class="opcoes">Login</li></a> 
         </ul>
     </nav>
+   </div>
+   
 </header>
 
 <body>
@@ -34,13 +37,15 @@
     <section class="sobre">
 
         <aside class="logo" >
-         <img id="imagem_sobre" src="" alt="" >
+         <img id="imagem_sobre" src="./images/logo.png" alt="" >
         </aside>
 
         <aside class="text"> 
-          <h1>Sua lista top 1 das galáxias</h1>
-          <p>Cansado de perder seus compromissos? <br> A Univers te ajuda a organizar sua rotina da melhor maneira possível.</p>
-          <p>Se organiza de maneira fácil, eficaz e criativa!</p>
+            <div class="texto_top_1" >
+              <h1 class="top_1" >Sua lista top 1 das galáxias</h1>
+             <p class="texto_sobre">Cansado de perder seus compromissos? <br> A Univers te ajuda a organizar sua rotina da melhor maneira possível.</p>
+             <p class="texto_sobre">Se organiza de maneira fácil, eficaz e criativa!</p>
+            </div>
         </aside>
 
     </section>
@@ -49,19 +54,19 @@
         <div class="avisos" id="item_1">
             <img src="./images/warning-sign.png" alt="" id="img_avisos">
             <legend>AVISOS</legend>
-            <p class="paragrafo" >Te avisamos quando sua tarefa estiver próxima da data de entrega</p>
+            <p class="paragrafo" id="paragrafos_avisos" >Te avisamos quando sua tarefa estiver próxima da data de entrega</p>
         </div>
 
         <div class="eventos" id="item_2" >
             <img id="img_eventos" src="./images/star.png" alt="">
             <legend>EVENTOS</legend>
-            <p class="paragrafo" >Te avisamos sobre os próximos eventos astrológicos</p>
+            <p class="paragrafo" id="paragrafo_eventos" >Te avisamos sobre os próximos eventos astrológicos</p>
         </div>
 
         <div class="organizacao" id="item_3" >
             <img id="img_organizacao" src="./images/list.png" alt="">
             <legend>ORGANIZAÇÃO</legend>
-            <p class="paragrafo">Facilitamos a organização dos seus afazeres</p>
+            <p class="paragrafo" id="paragrafo_organizacao" >Facilitamos a organização dos seus afazeres</p>
         </div>
 
         <div class="calendario" id="item_4" >
@@ -71,96 +76,65 @@
         </div>
 
         <div class="planos" id="item_5" >
-            <img id="img_planos" src="" alt="">
+            <img id="img_planos" src="./images/payment.png" alt="">
             <legend>PLANOS</legend>
             <p class="paragrafo">Adaptamos o modelo da sua lista com base em suas necessidades</p>
         </div>
 
         <div class="compartilhamento" id="item_6" >
-            <img id="img_compartilhamento" src="" alt="">
-            <legend>Compartilhamento</legend>
+            <img id="img_compartilhamento" src="./images/share.png" alt="">
+            <legend>COMPARTILHAMENTO</legend>
             <p class="paragrafo">Você pode compartilhar seus afazeres com a sua equipe</p>
         </div>
     </section>
 
     <section id="produtos">
-       
-        <div class="caixas" id="pessoal">
-            <h1> Fenix list-Pessoal</h1>
-            <img id="img_pessoal" src="" alt="">
+       <div id="produtos1">
+           <div class="caixas1" id="pessoal">
+             <h2 id="texto_pessoal"> Fenix list-Pessoal</h2>
+             <link rel="stylesheet" href="">
+           </div>
+  
+        <div class="caixas1" id="academico">
+            <h2 id="texto_academico"> Pegasus list-Acadêmico</h2>
+           <link rel="stylesheet" href="">
         </div>
-   
-        <div class="caixas" id="academico">
-            <h1> Pegasus list-Acadêmico</h1>
-            <img id="img_academico" src="" alt="">
+    </div>
+
+    <div id="produtos2">
+        <div class="caixas2" id="empresarial">
+            <h2 id="texto_empresarial"> Draco list-Empresarial</h2>
+            <link rel="stylesheet" href="">
         </div>
-   
-        <div class="caixas" id="empresarial">
-            <h1> Draco list-Empresarial</h1>
-            <img id="img_empresarial" src="" alt="">
-        </div>
+    </div>
    
    
     </section>
 
 <section class="login">
 <nav class="informaçoes">
-    <figure>
-        <img id="img_login" src="" alt="">
-    <h1>LOGIN</h1>
+    <figure id="img_h1" >
+        <img id="img_login" src="./images/logo.png" alt="">
+    <h1 class="h1_login" >LOGIN</h1>
 </figure>
 
 </nav>
 
 <nav class="container">
-    <form action="">
-        <label for="">Nome de usuário</label>
-        <input type="text" name="" id="" required>
+    <form action="" id="formulario_login" >
+        <label for="" id="label_login" >Nome de usuário</label>
+        <input type="text" name="" id="" required placeholder="user">
 
-        <label for="">Senha</label>
-        <input type="password" name="" id="" required>
+        <label for="" id="label_login">Senha</label>
+        <input type="password" name="" id="" required placeholder="******" >
+       
+        <button id="botao_login_2">Entrar</button>
    
-        <h2>Não tem uma conta?  <a href="">Crie uma!</a></h2>
+        <h2 id="h2_login">Não tem uma conta? <br> <a id="a_login" href="login_dois.html">Crie uma!</a></h2>
        
     </form> 
 </nav>
 </section>
-
-<section class="login_2">
-    <nav class="cadastro">
-        <figure>
-            <img id="img_cadastro" src="" alt="" >
-        <h1>CADASTRE-SE</h1>
-        </figure>
-    </nav>
-
-    <nav class="cadastrar">
-        <form action="">
-            <label for=""> Nome de usuario</label>
-            <input type="text" name="" id="" required>
-
-            <label for="">Email</label>
-            <input type="email" name="" id="" required>
-
-            <label for="">Telefone</label>
-            <input type="number" name="" id="" required>
-
-            <label for="">Senha</label>
-            <input type="password" name="" id="" required>
-
-            <label for="">Confirmar senha</label>
-            <input type="password" name="" id="" required>
-
-            <button>CADASTRE-SE</button>
-
-
-
-        </form>
-
-
-    </nav>
-</section>
-
 
 </body>
 
