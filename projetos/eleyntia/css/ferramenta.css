@@ -340,20 +340,26 @@ margin-left: 20px;
 }
 
 
-
-*---------LOGIN--------*/
+/*---------LOGIN--------*/
 /*PARTE 1---------------------------------------------*/
+body{
+    background-image:/* url(./img/fundotop.jpeg),*/ url(./5553605.jpg) ;
+    background-size: 100%;
+    color: white;
+   background-repeat: no-repeat, 
+    
+}
 
 /*cor da parte de cima, cor de onde fica login e o logo*/
 .informaçoes{
-    background-color: rgb(92 92 221);
+    background-color: rgba(27, 27, 109, 0.532);
     border: solid 1px rgb(184, 184, 184);
     border-radius: 5px ;
 }
 
 /*cor da segunda parte,parte onde fica o formulario,os input*/
 .container{
-    background-color: rgb(123, 113, 213);
+    background-color: rgba(74, 8, 149, 0.495);
     border: solid 1px rgb(193, 193, 193);
     border-radius: 5px ;
     margin-top: 10px;
@@ -424,14 +430,14 @@ margin-left: 20px;
 
 /*cor da div, do cabeçario*/
 .cadastro{
-    background-color: rgb(162, 74, 216);
+    background-color: rgba(87, 11, 135, 0.434);
     border: solid 3px rgb(184, 184, 184);
     border-radius: 7px ;
 }
 
 /*cor do corpo*/
 .cadastrar_1{
-    background-color: rgb(192, 127, 239);
+    background-color: rgba(96, 67, 162, 0.54);
     border: solid 1px rgb(193, 193, 193);
     border-radius: 5px ;
     margin-top: 10px;
@@ -510,7 +516,7 @@ section.login_2{
      margin-bottom: 20px;
      max-width: 35%;
      padding: 10px;
-     color: white;
+     color: black;
      background-color: rgb(218, 177, 255);
      border: solid 1px rgb(184, 184, 184);
      border-radius: 7px ;
@@ -519,4 +525,8 @@ section.login_2{
 /*mudando a cor quando passa,1 pagina*/
 #botao_login_2:hover{
     background-color: rgb(165, 92, 221);
+}
+
+#icon{
+    max-width: 100%;
 }
