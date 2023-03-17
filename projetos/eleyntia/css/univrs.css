@@ -1,17 +1,88 @@
-nav{
-    display: flex;
-    align-items: center;
-    color: white;
-    background-color: rgb(4, 4, 113);
+#item_1{ grid-area: card1;}
+#item_2{ grid-area: card2;}
+#item_3{ grid-area: card3;}
+#item_4{ grid-area: card4;}
+#item_5{ grid-area: card5;}
+#item_6{ grid-area: card6;}
+
+#ferramentas{
+    display: grid;
+    grid-template-areas: 
+    "card1 card2 card3"
+    "card4 card5 card6";
+    gap: 10px;
+    text-align: center;
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    margin-left: 600px;
-
+#ferramentas .avisos{
+    background-color: rgb(167, 92, 237);
 }
 
-li{
-    padding: 20px;
+#ferramentas .eventos{
+    background-color: rgb(167, 92, 237);
+}
+
+#ferramentas .organizacao{
+    background-color: rgb(167, 92, 237);
+}
+
+#ferramentas .calendario{
+    background-color: rgb(167, 92, 237);
+}
+
+#ferramentas .planos{
+    background-color: rgb(167, 92, 237);
+}
+
+#ferramentas .compartilhamento{
+    background-color: rgb(167, 92, 237);
+}
+
+#img_avisos{
+    max-width: 50px;
+    margin: 15px;
+}
+
+#img_avisos:hover{
+    max-width: 75px;
+    transition: 400ms linear;
+}
+
+#img_eventos{
+    max-width: 50px;
+    margin: 15px;
+}
+
+#img_eventos:hover{
+    max-width: 75px;
+    transition: 400ms linear;
+}
+
+#img_organizacao{
+    max-width: 50px;
+    margin: 15px;
+}
+
+#img_organizacao:hover{
+    max-width: 75px;
+    transition: 400ms linear;
+}
+
+#img_calendario{
+    max-width: 50px;
+    margin: 15px;
+}
+
+#img_calendario:hover{
+    max-width: 75px;
+    transition: 400ms linear;
+}
+
+legend{
+    font-size: 25px;
+    font-family: verdana;
+}
+
+.paragrafo{
+    font-size: 15px;
 }
