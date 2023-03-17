@@ -1,0 +1,179 @@
+/*---------LOGIN--------*/
+/*PARTE 1---------------------------------------------*/
+
+/*cor da parte de cima, cor de onde fica login e o logo*/
+.informaçoes{
+    background-color: rgb(92 92 221);
+    border: solid 1px rgb(184, 184, 184);
+    border-radius: 5px ;
+}
+
+/*cor da segunda parte,parte onde fica o formulario,os input*/
+.container{
+    background-color: rgb(123, 113, 213);
+    border: solid 1px rgb(193, 193, 193);
+    border-radius: 5px ;
+    margin-top: 10px;
+}
+
+/*mexendpo no h1, no titulo LOGIN da parte de cima*/
+.informaçoes h1{
+    font-size: 35px;
+    margin-left: 185px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*mexendo na section, onde tudo fica, mxendo na posiçao, tamanho*/
+.login{
+    max-width: 55%;
+   margin-left: 350px;
+}
+
+/*mexendo no tamanho da imagem,logo*/
+#img_login{
+    max-width: 15%;
+}
+
+/*deixando um do lado do outro*/
+#img_h1{
+    display: flex;
+}
+
+/*estilizando os input*/
+.container input{
+   /* width: 650px;
+    height: 40px;*/
+    max-width: 90%;
+    max-height: 40%;
+    padding: 10px;
+    border: solid 1px grey;
+    border-radius: 5px ;
+}
+
+/*colocando as coisas em login*/
+#formulario_login{
+    
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+/*laabel do primeiro formulario,estilizaçao*/
+#label_login{
+    padding: 15px;
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+/*texto do primeiro formulario*/
+.container #h2_login{
+   margin-left: 260px;
+   font-size: 20px;
+}
+/*link do 1 formulario*/
+#a_login{
+    margin-left: 50px;
+    color: white;
+    
+}
+
+/*--------------------PARTE2-----------------*/
+
+/*cor da div, do cabeçario*/
+.cadastro{
+    background-color: rgb(162, 74, 216);
+    border: solid 3px rgb(184, 184, 184);
+    border-radius: 7px ;
+}
+
+/*cor do corpo*/
+.cadastrar_1{
+    background-color: rgb(192, 127, 239);
+    border: solid 1px rgb(193, 193, 193);
+    border-radius: 5px ;
+    margin-top: 10px;
+}
+
+/*mexendpo no h1, no titulo LOGIN da parte de cima*/
+.cadastro h1{
+    font-size: 35px;
+    margin-left: 135px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*mexendo na section, onde tudo fica, mxendo na posiçao, tamanho*/
+section.login_2{
+    max-width: 55%;
+   margin-left: 350px;
+   
+}
+
+/*mexendo no tamanho da imagem,logo*/
+#img_cadastro{
+    max-width: 15%;
+}
+
+/*deixando um do lado do outro*/
+#img_h2{
+    display: flex;
+}
+
+/*estilizando os input*/
+.cadastrar_1 input{
+     max-width: 90%;
+     max-height: 40%;
+     padding: 10px;
+     border: solid 1px grey;
+     border-radius: 5px ;
+ }
+
+ /*deixando em colunas as informaçoes*/
+#formulario_login_2{
+    
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+/*label do segundo formulario*/
+#label_login_2{
+    padding: 15px;
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+/*tamanho,cor enfim estilizando o botao,2 pagina*/
+#botao_login{
+   margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 50%;
+    padding: 10px;
+    color: white;
+    background-color:  rgb(123, 113, 213);
+    border: solid 1px rgb(184, 184, 184);
+    border-radius: 7px ;
+}
+
+/*mudando a cor quando passa, 2 pagina*/
+#botao_login:hover{
+    background-color: rgb(89, 83, 200);
+}
+
+/*mexendo no botao,estilizando, 1 pagina*/
+#botao_login_2{
+    margin-left: 220px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     max-width: 35%;
+     padding: 10px;
+     color: white;
+     background-color: rgb(218, 177, 255);
+     border: solid 1px rgb(184, 184, 184);
+     border-radius: 7px ;
+ }
+
+/*mudando a cor quando passa,1 pagina*/
+#botao_login_2:hover{
+    background-color: rgb(165, 92, 221);
+}
