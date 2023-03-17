@@ -1,0 +1,86 @@
+#produto{
+    display: flex;
+    flex-direction:column;
+}
+/* DIV COM OS DOIS PRIMEIRO E O SEGUNDO PRODUTO*/
+#produtos1{
+       height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DIV COM O TERCEIRO PRODUTO*/
+#produtos2{
+   
+    height: 250px;
+    display: flex;
+   justify-content: center;
+   
+}
+
+/* PRIMEIRO E SEGUNDO PRODUTO*/
+.caixas1{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 500px;
+    border: 1px black solid;
+    border-radius: 10px;
+    color: white;
+    font-family: Georgia;
+    font-size:smaller;
+}
+
+
+/* PRIMEIRO PRODUTO*/
+#pessoal{
+    background-image: url("./fenix.png");
+    margin-right: 80px;
+}
+
+#texto_pessoal{
+    margin-left: 20px;
+}
+
+#pessoal:hover{
+    height: 190px;
+    width: 490px;
+    transition: 500ms;
+}
+
+/* SEGUNDO PRODUTO*/
+#academico{
+    background-image: url("./pegasus.png");
+}
+
+#texto_academico{
+margin-left: 20px;
+}
+
+#academico:hover{
+    height: 190px;
+    width: 490px;
+    transition: 500ms;
+}
+
+/* TERCEIRO PRODUTO*/
+.caixas2{
+    height: 200px;
+    width: 500px;
+    border: 1px black solid;
+    color: white;
+    font-family: Georgia;
+    font-size:smaller;
+    border-radius: 10px;
+    background-image: url(./dracodraco.png);
+}
+
+#texto_empresarial{
+    margin-left: 20px;
+}
+
+#empresarial:hover{
+    height: 190px;
+    width: 490px;
+    transition: 500ms;
+}
