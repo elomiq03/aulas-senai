@@ -4,7 +4,7 @@
 }
 /* DIV COM OS DOIS PRIMEIRO E O SEGUNDO PRODUTO*/
 #produtos1{
-       height: 300px;
+       height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,6 @@ margin-left: 20px;
     height: 190px;
     width: 490px;
     transition: 500ms;
-
 
 
     
