@@ -2,39 +2,117 @@
 
 
 /*arrumando a section class sobre*/
+
+
+/*div class texto correto com o h1 e os p dentro*/
+.texto_correto{ 
+    padding-top: 200px;
+}
+
+/*print da lista e tarefas, vamos colocar uma imagem de fundo e a print por cima, arrumar depois*/
+#img_principal{
+    padding-left: 450px;
+    padding-top: 100px;
+    width: 600px;
+    height: 600px;
+}
+
+/*section class sobre*/
 .sobre{ 
-    background-color: rgba(20, 20, 81, 0.6);
+    background-color: rgba(44, 11, 78, 0.516);
     display: flex;
-    max-width: 900px;
-    margin-left: 300px;
-    border: 10px solid rgba(231, 219, 255, 0.549);
-    border-radius: 10px;
-  
-    margin-top: 1200px;
+    max-width: 1600px;
+    margin-top: 100px;
 }
 
 /*h1 class top_1*/
 .top_1{ 
 text-align: center;
-font-size: 30px;
-color: rgb(217, 221, 255);
+font-size: 60px;
+color: rgb(255, 255, 255);
 }
 
 /* parágrafo dos textos*/
 .texto_sobre{
-font-size: 20px;
-color: rgb(186, 194, 254);
+font-size: 30px;
+color: rgb(247, 237, 255);
 padding-top: 10px;
+text-align: center;
 }
 
+/*h1 prioridades*/
+.prioridades_2{
+    padding-left: 130px;
+    font-size: 30px;
+}
+
+/*p prioridades*/
+
+.prioridades_3{
+    padding-left: 90px;
+    font-size: 20px;
+}
+
+/*h1 encontrar-se*/
+.encontrar{
+   font-size: 30px;
+}
+
+/*p encontrar*/
+.separar_encontrar{
+font-size: 20px;
+}
+
+/*h1 avisos e lembretes*/
+.avisos{
+    font-size: 30px;
+}
+
+/*p avisos e lembretes*/
+
+.lembretes{
+    font-size: 17px;
+}
 /*tamanho da imagem logo*/
 #imagem_sobre{ 
  height: 500px;
  width: 500px;
+ margin-left: -140px;
+ margin-right: -70px;
 }
 
-/*div dos p e h1*/
+/*div dos p e h1 da esquerda*/
 .texto_top_1{ 
 padding-top: 50px;
 padding-right:70px;
+}
+
+/*div dos p e h1 da direita*/
+
+.texto_top_2{
+    padding-top: 50px;
+}
+
+/*itens dentro do aside pai*/
+.text{
+    display: flex;
+    padding-top: 50px;
+}
+
+
+/*quem somos h1*/
+.quem_somos{
+    padding-left: 130px;
+    font-size: 30px;
+}
+
+/*quem somos p*/
+.quem_somos_2{
+    padding-left: 90px;
+    font-size: 17px;
+}
+
+/*aside que contém os textos da direita da tela*/
+#textos_direita{
+    padding-right: 80px;
 }
