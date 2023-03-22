@@ -16,12 +16,12 @@
     </figure>
        
     <nav class="menu">
-        <ul>
-           <a class="estilo" href=""> <li class="opcoes">Home</li></a>
-           <a class="estilo" href=""> <li class="opcoes">Sobre</li></a> 
-           <a class="estilo" href=""> <li class="opcoes">Ferramentas</li></a> 
-           <a class="estilo" href=""> <li class="opcoes">Produtos</li></a>
-           <a class="estilo" href=""> <li class="opcoes">Login</li></a> 
+        <ul class="menu_ul">
+           <a class="estilo" href="#home"> <li class="opcoes">Home</li></a>
+           <a class="estilo" href="#sobre"> <li class="opcoes">Sobre</li></a> 
+           <a class="estilo" href="#ferramentas"> <li class="opcoes">Ferramentas</li></a> 
+           <a class="estilo" href="#produtos"> <li class="opcoes">Produtos</li></a>
+           <a class="estilo" href="#login"> <li class="opcoes">Login</li></a> 
         </ul>
     </nav>
    </div>
@@ -30,11 +30,11 @@
 
 <body>
 
-    <main>
+    <main id="home">
     <img id="img_principal" src="" alt="">
     </main>
 
-    <section class="sobre">
+    <section class="sobre" id="sobre">
 
         <aside class="logo" >
          <img id="imagem_sobre" src="./images/logo.png" alt="" >
@@ -54,7 +54,7 @@
         <div class="avisos" id="item_1">
             <img src="./images/warning-sign.png" alt="" id="img_avisos">
             <legend>AVISOS</legend>
-            <p class="paragrafo" id="paragrafos_avisos" >Te avisamos quando sua tarefa estiver próxima da data de entrega</p>
+            <p class="paragrafo" id="paragrafos_avisos" >Te avisamos quando sua tarefa estiver<br> próxima da data de entrega</p>
         </div>
 
         <div class="eventos" id="item_2" >
@@ -111,7 +111,7 @@
    
     </section>
 
-<section class="login">
+<section class="login" id="login">
 <nav class="informaçoes">
     <figure id="img_h1" >
         <img id="img_login" src="./images/logo.png" alt="">
