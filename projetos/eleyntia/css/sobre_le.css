@@ -6,6 +6,11 @@
     text-align: center;
     font-size: 60px;
     color: rgb(255, 255, 255);
+    text-shadow: 
+    -1px -1px 0px #41048b,
+    -1px 1px 0px #41048b,
+    1px -1px 0px #41048b,
+    1px 0px 0px #41048b;
     }
     
     /* parágrafo dos textos, apresentação das frases chamativas no home, tamanho, cor, espaçamento*/
@@ -14,6 +19,11 @@
     color: rgb(247, 237, 255);
     padding-top: 10px;
     text-align: center;
+    text-shadow: 
+    -1px -1px 0px #41048b,
+    -1px 1px 0px #41048b,
+    1px -1px 0px #41048b,
+    1px 0px 0px #41048b;
     }
 
     /*div class texto correto com o h1 e os p dentro, é a parte do home, onde colocamos o texto mais para baixo*/
@@ -36,7 +46,7 @@
 
 /*section class sobre, engloba o main e os textos que estão dentro, arrumamos a posição dela no site, cor de fundo, e adicionamos o display flex para deixar todos os itens dentro da section lado a lado*/
 .sobre{ 
-    background-color: rgba(44, 11, 78, 0.516);
+    background-color: rgba(45, 11, 78, 0.432);
     display: flex;
     max-width: 1600px;
     margin-top: 100px;
@@ -50,33 +60,69 @@
 .prioridades_2{
     padding-left: 130px;
     font-size: 30px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0px #5000b1,
+    -1px 1px 0px  #5000b1,
+    1px -1px 0px  #5000b1,
+    1px 0px 0px  #5000b1;
 }
 
 /*p prioridade, é o texto que fica embaixo do título, arrumamos espaçamento e tamanho da fonte*/
 .prioridades_3{
     padding-left: 90px;
     font-size: 20px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0px #5000b1,
+    -1px 1px 0px  #5000b1,
+    1px -1px 0px  #5000b1,
+    1px 0px 0px  #5000b1;
 }
 
 /*h1 encontrar-se, título, tamanho da fonte*/
 .encontrar{
    font-size: 30px;
+   color: white;
+   text-shadow: 
+   -1px -1px 0px #5000b1,
+   -1px 1px 0px  #5000b1,
+   1px -1px 0px  #5000b1,
+   1px 0px 0px  #5000b1;
 }
 
 /*p encontrar, é o texto que fica embaixo do título*/
 .separar_encontrar{
 font-size: 20px;
+color: white;
+text-shadow: 
+    -1px -1px 0px #5000b1,
+    -1px 1px 0px  #5000b1,
+    1px -1px 0px  #5000b1,
+    1px 0px 0px  #5000b1;
 }
 
 /*h1 avisos e lembretes, título*/
 .avisos{
     font-size: 30px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0px #5000b1,
+    -1px 1px 0px  #5000b1,
+    1px -1px 0px  #5000b1,
+    1px 0px 0px  #5000b1;
 }
 
 /*p avisos e lembretes, texto embaixo do título*/
 
 .lembretes{
-    font-size: 17px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0px #5000b1,
+    -1px 1px 0px  #5000b1,
+    1px -1px 0px  #5000b1,
+    1px 0px 0px  #5000b1;
 }
 /*tamanho da imagem logo, arrumamos o espaçamento, é a imagem qe fica no centro do sobre, entre os textos*/
 #imagem_sobre{ 
@@ -108,12 +154,24 @@ padding-right:70px;
 .quem_somos{
     padding-left: 130px;
     font-size: 30px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0px #5000b1,
+    -1px 1px 0px  #5000b1,
+    1px -1px 0px  #5000b1,
+    1px 0px 0px  #5000b1;
 }
 
 /*quem somos p, é o texto embaixo do título*/
 .quem_somos_2{
     padding-left: 90px;
-    font-size: 17px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0px #5000b1,
+    -1px 1px 0px  #5000b1,
+    1px -1px 0px  #5000b1,
+    1px 0px 0px  #5000b1;
 }
 
 /*aside que contém os textos da direita da tela*/
