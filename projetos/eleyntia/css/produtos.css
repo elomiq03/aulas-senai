@@ -29,6 +29,11 @@
     color: white;
     font-family: Georgia;
     font-size:smaller;
+    text-shadow: 
+    -1px -1px 0px #ff8d30,
+    -1px 1px 0px  #ff8d30,
+    1px -1px 0px  #ff8d30,
+    1px 0px 0px  #ff8d30;
 }
 
 
@@ -55,6 +60,12 @@
 
 #texto_academico{
 margin-left: 20px;
+color: white;
+text-shadow: 
+-1px -1px 0px #ff57c4,
+-1px 1px 0px  #ff57c4,
+1px -1px 0px  #ff57c4,
+1px 0px 0px  #ff57c4;
 }
 
 #academico:hover{
@@ -73,6 +84,11 @@ margin-left: 20px;
     font-size:smaller;
     border-radius: 10px;
     background-image: url(./dracodraco.png);
+    text-shadow: 
+    -1px -1px 0px #078300,
+    -1px 1px 0px  #078300,
+    1px -1px 0px  #078300,
+    1px 0px 0px  #078300;
 }
 
 #texto_empresarial{
