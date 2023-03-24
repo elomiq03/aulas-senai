@@ -21,8 +21,8 @@
     gap: 25px;  /*usei o gap para separar os itens*/
     text-align: center; /* alinha o texto dentro de cada item no centro*/
     margin: 60px; /*distancia das margem laterais (direita e esquerda*/
-    margin-top: 500px; /*margem com relação a section de cima*/
-    margin-bottom: 550px; /*margem da section com relação a section de baixo*/
+    margin-top: 350px; /*margem com relação a section de cima*/
+    margin-bottom: 350px; /*margem da section com relação a section de baixo*/
 }
 
 /* TEXTO DENTRO DOS ITENS*/

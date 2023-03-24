@@ -191,3 +191,57 @@
     margin-right:-300px;
 }*/
 
+/*---------------------ARRUMANDO AS FRASES DOS SITES------------------------*/
+#frase_dois{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif fantasy;
+    font-style: italic;
+    text-shadow: 
+    -1px -1px 0px #bb74fe,
+    -1px 1px 0px #bb74fe,
+    1px -1px 0px #bb74fe,
+    1px 0px 0px #bb74fe;
+}
+
+#frase_tres{
+    margin-top: 300px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif fantasy;
+    font-style: italic;
+    text-shadow: 
+    -1px -1px 0px #bb74fe,
+    -1px 1px 0px #bb74fe,
+    1px -1px 0px #bb74fe,
+    1px 0px 0px #bb74fe;
+}
+
+
+#frase_um{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif fantasy;
+    font-style: italic;
+    text-shadow: 
+    -1px -1px 0px #bb74fe,
+    -1px 1px 0px #bb74fe,
+    1px -1px 0px #bb74fe,
+    1px 0px 0px #bb74fe;
+}
+
+#adaptado{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif fantasy;
+    font-style: italic;
+    text-shadow: 
+    -1px -1px 0px #bb74fe,
+    -1px 1px 0px #bb74fe,
+    1px -1px 0px #bb74fe,
+    1px 0px 0px #bb74fe;
+}
