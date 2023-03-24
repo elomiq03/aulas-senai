@@ -52,6 +52,7 @@
     margin-top: 100px;
 }
 
+
 .somos{
     padding-top: 50px;
 }
@@ -175,6 +176,6 @@ padding-right:70px;
 }
 
 /*aside que contém os textos da direita da tela*/
-#textos_direita{
-    padding-right: 80px;
+.textos_direita{
+    margin-right: 80px;
 }
