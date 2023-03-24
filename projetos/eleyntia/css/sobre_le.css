@@ -1,15 +1,32 @@
-/*início do sobre*/
+/*-------início do body, texto na página principal home------------*/
 
 
-/*arrumando a section class sobre*/
+/*h1 class top_1 texto top 1 das galáxias no começo da página*/
+.top_1{ 
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    }
+    
+    /* parágrafo dos textos, apresentação das frases chamativas no home, tamanho, cor, espaçamento*/
+    .texto_sobre{
+    font-size: 30px;
+    color: rgb(247, 237, 255);
+    padding-top: 10px;
+    text-align: center;
+    }
 
-
-/*div class texto correto com o h1 e os p dentro*/
+    /*div class texto correto com o h1 e os p dentro, é a parte do home, onde colocamos o texto mais para baixo*/
 .texto_correto{ 
     padding-top: 200px;
 }
 
-/*print da lista e tarefas, vamos colocar uma imagem de fundo e a print por cima, arrumar depois*/
+/*------------------início section class sobre-----------------------*/
+
+
+
+
+/*print da lista de tarefas, vamos colocar uma imagem de fundo e a print por cima, arrumar depois que estivermos com a lista pronta, apenas arrumamos o tamanho e espaçamento da imagem por enquanto*/
 #img_principal{
     padding-left: 450px;
     padding-top: 100px;
@@ -17,7 +34,7 @@
     height: 600px;
 }
 
-/*section class sobre*/
+/*section class sobre, engloba o main e os textos que estão dentro, arrumamos a posição dela no site, cor de fundo, e adicionamos o display flex para deixar todos os itens dentro da section lado a lado*/
 .sobre{ 
     background-color: rgba(44, 11, 78, 0.516);
     display: flex;
@@ -25,55 +42,40 @@
     margin-top: 100px;
 }
 
-/*h1 class top_1*/
-.top_1{ 
-text-align: center;
-font-size: 60px;
-color: rgb(255, 255, 255);
-}
 
-/* parágrafo dos textos*/
-.texto_sobre{
-font-size: 30px;
-color: rgb(247, 237, 255);
-padding-top: 10px;
-text-align: center;
-}
-
-/*h1 prioridades*/
+/*h1 prioridades, texto com as nossas prioridades, espaçamento e tamanho da fonte, é o título*/
 .prioridades_2{
     padding-left: 130px;
     font-size: 30px;
 }
 
-/*p prioridades*/
-
+/*p prioridade, é o texto que fica embaixo do título, arrumamos espaçamento e tamanho da fonte*/
 .prioridades_3{
     padding-left: 90px;
     font-size: 20px;
 }
 
-/*h1 encontrar-se*/
+/*h1 encontrar-se, título, tamanho da fonte*/
 .encontrar{
    font-size: 30px;
 }
 
-/*p encontrar*/
+/*p encontrar, é o texto que fica embaixo do título*/
 .separar_encontrar{
 font-size: 20px;
 }
 
-/*h1 avisos e lembretes*/
+/*h1 avisos e lembretes, título*/
 .avisos{
     font-size: 30px;
 }
 
-/*p avisos e lembretes*/
+/*p avisos e lembretes, texto embaixo do título*/
 
 .lembretes{
     font-size: 17px;
 }
-/*tamanho da imagem logo*/
+/*tamanho da imagem logo, arrumamos o espaçamento, é a imagem qe fica no centro do sobre, entre os textos*/
 #imagem_sobre{ 
  height: 500px;
  width: 500px;
@@ -81,32 +83,31 @@ font-size: 20px;
  margin-right: -70px;
 }
 
-/*div dos p e h1 da esquerda*/
-.texto_top_1{ 
+/*aside dos p e h1 da esquerda, engloba os dois parágrafos de textos, arrumamos o espaçamento*/
+.texto_esquerda{ 
 padding-top: 50px;
 padding-right:70px;
 }
 
-/*div dos p e h1 da direita*/
-
+/*div dos p e h1 da direita, engloba dois parágrafos de texto, espaçamento*/
 .texto_top_2{
     padding-top: 50px;
 }
 
-/*itens dentro do aside pai*/
+/*itens dentro do aside pai, é o main*/
 .text{
     display: flex;
     padding-top: 50px;
 }
 
 
-/*quem somos h1*/
+/*quem somos h1, é o título*/
 .quem_somos{
     padding-left: 130px;
     font-size: 30px;
 }
 
-/*quem somos p*/
+/*quem somos p, é o texto embaixo do título*/
 .quem_somos_2{
     padding-left: 90px;
     font-size: 17px;
