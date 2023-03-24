@@ -192,6 +192,7 @@
 }*/
 
 /*---------------------ARRUMANDO AS FRASES DOS SITES------------------------*/
+/*arrumando posiçoa, cor, font, e curvatura da letra, e as sombras da frase 2*/
 #frase_dois{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -205,6 +206,8 @@
     1px 0px 0px #bb74fe;
 }
 
+/*arrumando posiçoa, cor, font, e curvatura da letra, e as sombras da frase 3
+""Mantenha os seus olhos nas estrelas e seus pes seus pés na terra.” - Theodore Roosevelt */
 #frase_tres{
     margin-top: 300px;
     text-align: center;
@@ -219,7 +222,9 @@
     1px 0px 0px #bb74fe;
 }
 
-
+/*arrumando posiçoa, cor, font, e 
+curvatura da letra, e as sombras da frase 1 "Não tenho certeza de nada, 
+mas a visão das estrelas me faz sonhar.” - Vincent van Gogh"*/
 #frase_um{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -232,7 +237,8 @@
     1px -1px 0px #bb74fe,
     1px 0px 0px #bb74fe;
 }
-
+/*arrumando posiçoa, cor, font, e curvatura da letra, e as sombras da palavra adaptado em  baixo
+ da frase""Meus pensamentos são estrelas que eu consigo arrumar em constelações. -Augustus Waters*/
 #adaptado{
     text-align: center;
     color: rgb(255, 255, 255);
