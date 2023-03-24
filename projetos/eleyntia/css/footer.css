@@ -1,17 +1,19 @@
 
+/*---------------------------------------------------------*/
+
+/* INICIO DO FOOTER*/
 
 
-/* TODO O FOOTER*/
+/* FOOTER*/
 footer{
-    background-color: rgba(0, 0, 0, 0.505);
-    height: 150px;
-    display: flex;
-    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.505);/* cor de fundo do footer*/
+    height: 150px; /* tamanho (altura) do footer*/
+    margin-top: 100px; /*margem com relação ao objeto de cima*/
 }
 
-/* SECTION DO FOTTER ( deixa as div em linha)*/
+/* SECTION DO FOTTER*/
 #rodape{
-    display: flex;
+    display: flex; /* esses dois topicos servem para organizar todos os itens dentro do footer em minha, um do lado do outro */
     flex-direction: row;
 }
 
@@ -19,14 +21,14 @@ footer{
 
 /* DIV DA FOTO */
 #logo_footer{
-    width: 150px;
-    margin-left: 70px;
-    margin-top: 27px;
+    width: 150px; /*tamanho da div da foto da foto*/
+    margin-left: 70px; /* margem com relação ao lado esquerdo*/
+    margin-top: 27px; /* margem  com relação ao topo do footer*/
 }
 
 /*  FOTO*/
 #logo_do_footer{
-    height: 90px;
+    height: 90px; /*tamanho da foto*/
    
     }
 
@@ -34,63 +36,65 @@ footer{
 
 /* DIV DA PARTE CONTATO*/
 #contato{
-    margin-left: 30px;
-    width: 300px;
-    border-left: 1px white solid;
-    padding-left: 40px;
+    margin-left: 30px;  /*margem com relação a div da logo*/
+    width: 300px; /*tamanho dessa div*/
+    border-left: 1px white solid; /*borda (linha branca) do lado esquerdo da div tamanho e cor dela*/
+    padding-left: 40px; /*distancia dentro da div com relação a borda*/
 }
 
-/* PARAGRAFOS DENTRO DO CONTATO*/
+/* INFORMAÇÕES DENTRO DO CONTATO*/
 #contato p{
-    margin-top: -10px;
+    margin-top: -10px; /* distancia entre cada linha*/
 }
 
 /*----------------------------*/
 
+/* DIV GERAL DAS REDES*/
 #redes{
-    border-left: 1px solid white;
-
+    border-left: 1px solid white; /* borda (linha do lado esquerdo) tamanho e cor dela*/
+   padding-left: 15px;
 }
 
 /* H1 DAS REDES*/
 #texto{
-    text-align: center;
+    text-align: center; /*coloca o h1 no centro da div*/
 }
 
 
 /* DIV COM AS IMAGENS DAS REDES*/
-#imagens_footer{
-    display: flex;
-    align-items: center;
+#imagens_footer{ 
+    display: flex; /* coloca as imagens uma do lado da outra */
+    align-items: center; /* alinha as imagens no centro da div*/
     
  }
 
-/*CADA IMAGEM DAS REDES (tamanho)*/
-
+/*CADA IMAGEM DAS REDES */
 #img_redes{
-    width: 40px;
-    height: 40px;
+    width: 40px; /*tamanho das imagens(largura)*/
+    height: 40px; /*tamanho das imagens(altura)*/
 }
 
-/* FIGURE COM AS IMAGENS (esta dando o espaço entre elas)*/
+/* FIGURE COM AS IMAGENS */
 .img_contato{
-    margin-right: 5px;
+    margin-right: 5px; /*(esta dando o espaço entre as imagens)*/
 }
 
 /*---------------------------*/
 
 /* DIV RECLAME AQUI */
 #reclame_aqui{
-    margin-left: 100px;
-    border-left: 1px white solid;
-    padding-left: 40px;
+    margin-left: 100px; /*margem com relação a outra div*/
+    border-left: 1px white solid; /*borda do lado direito da div (linha) cor branca e grossura*/
+    padding-left: 40px; /*distancia dentro da div com relação a borda*/
 }
 
+/* BOTAO DO FOOTER*/
 #botao_footer{
-    border-radius: 2px;
-    background-color: purple;
+    border-radius: 2px; /*deixa o botao com as bordas curvadas*/
+    background-color: purple; /*cor do botao*/
 }
 
+/*BOTAO DO FOOTER HOVER*/
 #botao_footer:hover{
-    opacity: 0.8;
+    opacity: 0.8; /*deixa o botao meio tranparente quando passa o mouse por cima*/
 }

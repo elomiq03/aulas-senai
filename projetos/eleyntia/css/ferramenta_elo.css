@@ -1,5 +1,10 @@
-/*inicio de ferramentas*/
-/*dei apelidos para cada item*/
+
+/*---------------------------------------------------------*/
+
+/*INICIO FERRAMENTAS*/
+
+
+/*dei apelidos para cada item para progamar o grid*/
 #item_1{ grid-area: card1;}
 #item_2{ grid-area: card2;}
 #item_3{ grid-area: card3;}
@@ -7,125 +12,132 @@
 #item_5{ grid-area: card5;}
 #item_6{ grid-area: card6;}
 
-/*comecei a programar para ficar com o grid*/
+/* SECTION FERRAMENTAS */
 #ferramentas{
-    display: grid;
+    display: grid; /*organiza os grid em formato grid*/
     grid-template-areas: /*coloquei o grid template area e os separei*/
     "card1 card2 card3"
     "card4 card5 card6";
     gap: 25px;  /*usei o gap para separar os itens*/
-    text-align: center;
-    margin: 60px; 
-    margin-top: 500px;
-    margin-bottom: 550px;
+    text-align: center; /* alinha o texto dentro de cada item no centro*/
+    margin: 60px; /*distancia das margem laterais (direita e esquerda*/
+    margin-top: 500px; /*margem com relação a section de cima*/
+    margin-bottom: 550px; /*margem da section com relação a section de baixo*/
 }
 
+/* TEXTO DENTRO DOS ITENS*/
 #ferramentas p{
-    display: block;
-    text-align: center;
-    height: 10px;
-}
-
-#ferramentas .avisos p{
-    margin-top: 1px;
-}
-
-/*coloquei cor e borda nas divs*/
-#ferramentas .avisos{ 
-    background-color:  rgba(167, 92, 237, 0.463);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 15px;
-   width: 400px;
-}
-
-#ferramentas .eventos{
-    background-color: rgba(167, 92, 237, 0.463);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 15px;
-    width: 400px;
-    
-}
-
-#ferramentas .organizacao{
-    background-color: rgba(167, 92, 237, 0.463);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 15px;
-    width: 400px;
-}
-
-#ferramentas .calendario{
-    background-color: rgba(167, 92, 237, 0.463);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 15px;
-    width: 400px;
-}
-
-#ferramentas .planos{
-    background-color: rgba(167, 92, 237, 0.463);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 15px;
-    width: 400px;
-}
-
-#ferramentas .compartilhamento{
-    background-color: rgba(167, 92, 237, 0.463);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 15px;
-    width: 400px;
-}
-
-
+    display: block; /*faz com que o texto apareça*/
+    text-align: center; /*alinha o texto no centro de cada item*/
   
+}
 
-/*arrumei o tamanho de todas elas e adicionei uma margem*/
+/* TEXTO DENTRO DO ITEM *AVISOS* */
+#ferramentas .avisos p{
+    margin-top: 1px; /*deu uma margem menor em relação ao h1 avisos, isso foi necessario pois por ter mais texto ficava desproporcional*/
+}
+
+/*-------------------------------------------------*/
+
+/*ITEM AVISOS*/
+#ferramentas .avisos{ 
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM EVENTOS*/
+#ferramentas .eventos{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM ORGANIZAÇÃO*/
+#ferramentas .organizacao{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM CALENDARIO*/
+#ferramentas .calendario{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM PLANOS*/
+#ferramentas .planos{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+/*ITEM COMPARTILHAMENTO*/
+#ferramentas .compartilhamento{
+    background-color:  rgba(167, 92, 237, 0.463); /*cor de fundo do item*/
+    border: 3px solid rgb(0, 0, 0); /*cor e grossura da borda*/
+    border-radius: 15px; /*arredonda a borda*/
+    width: 400px; /*tamanho do item*/
+}
+
+
+  /*-----------------------------------------------------------*/
+
+/* IMAGEM AVISOS*/
 #img_avisos{
-    max-width: 50px;
-    margin: 15px;
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
 }
 
-/*adicionei o hover em todas e adicionei tambem o display block para o paragrafo voltar*/
-
-
+/* IMAGEM EVENTOS*/
 #img_eventos{
-    max-width: 50px;
-    margin: 15px;
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
 }
 
-
+/*IMAGEM ORGANIZAÇÃO*/
 #img_organizacao{
-    max-width: 50px;
-    margin: 15px;
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
 }
 
-
+/*IMAGEM CALENDARIOS*/
 #img_calendario{
-    max-width: 50px;
-    margin: 15px;
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
 }
 
-
+/*IMAGEM PLANOS*/
 #img_planos{
-    max-width: 50px;
-    margin: 15px;
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
 }
 
-
+/*IMAGEM COMPARTILHAMENTO*/
 #img_compartilhamento{
-    max-width: 50px;
-    margin: 15px;
+    max-width: 50px; /*tamanho da imagem*/
+    margin: 15px; /*margem da imagem em relação ao topo da div */
 }
 
+/*-------------------------------------------------*/
 
-  /*arrumei o tamanho,o padding e a fonte da legenda */
+
+  /*LEGENDA (H1) DOS ITENS */
 legend{
-    font-size: 15px;
-    font-family: verdana;
+    font-size: 15px; /*tamaho dos h1*/
+    font-family: verdana; /*fonte do h1*/
     
 }
-/*arrumei o tamanho e o display para ela sumir*/
+/*TEXTOS DOS ITENS*/
 .paragrafo{
-    font-size: 15px;
-    display: none;
+    font-size: 15px; /*tamanho do texto dos itens*/
 }
 
 /*fim de ferramentas*/
