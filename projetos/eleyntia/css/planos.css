@@ -1,0 +1,193 @@
+
+/*div grande que engloba os planos pessoais*/
+#one{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+/*div grande que engloba os planos academico*/
+#two{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+/*div grande que engloba os planos empresarial*/
+#tree{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*é a div que engloba a caixinha toda -TAREFAS-*/
+.grid_pessoal{
+    border-radius: 10px;
+}
+
+/*é a parte de cima da caixinha,onde vai o texto e a cor roxa*/
+.um_pessoal{
+    background-color: rgb(142, 54, 184);
+    border-radius:10px;
+    width: 400px;
+}
+
+/*e a div que esta branca e leva o texto*/
+.dois_pessoal{
+    height: 100px;
+    width: 400px;
+    background-color:rgb(78, 27, 107);
+    border-radius:  0 0 10px 10px;
+}
+
+/*sao os titulos de todas que vao na parte roxa*/
+#h1_pessoal{
+   text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 0;
+    padding: 15px;
+}
+
+#h1_pessoal_{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 15px;
+   text-align: center;
+   margin-right: 1200px;
+}
+.border_planos{
+    color: #000;
+    text-shadow: 
+     -1px -1px 0px #6e1eb9,
+     -1px 1px 0px #6e1eba,
+     1px -1px 0px #6e1eba,
+     1px 0px 0px #6e1eba;
+}
+/*e o texto que esta dentro da div branca, que leva as informaçoes*/
+#h2_pessoal{
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+/*é a caixinha branca de todos*/
+.um_pessoal .dois_pessoal{
+    border: 1px solid rgb(68, 21, 100);
+}
+
+/*e a caixinha toda, colocando sombra*/
+#um_pessoal{
+    box-shadow: 5px 10px 8px #4c4c4c;
+}
+
+/*e o hoover da sombra da caixinhas*/
+#um_pessoal:hover{
+    box-shadow: 5px 10px 8px #727272;
+}
+
+
+
+/*-------------começo do segundo--------*/
+
+
+/*e as caixinhas de academico*/
+.grid_academico{
+    border-radius: 10px;
+}
+
+/*sao as caixinhas inteiras, caixinhas individuais de academico, onde vai a cor roxa e o titulo*/
+.um_academico{
+    width: 400px;
+    background-color: rgb(142, 54, 184);
+    border-radius:10px;
+}
+
+/*e a parte branca, onde leva as informaçoes dos planos academicos*/
+.dois_academico{
+    height: 100px;
+    width: 400px;
+    background-color:rgb(78, 27, 107);
+    border-radius:  0 0 10px 10px;
+}
+
+/*e a informaçao, o texto que leva as informaçoes do academico*/
+#h2_academico{   
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+/*e a borda da caixinha toda*/
+.um_academico .dois_academico{
+    border: 1px solid rgb(68, 21, 100);
+
+}
+
+/*e a sombra das caixinhas academicas*/
+#um_academico{
+    box-shadow: 5px 10px 8px #4c4c4c;
+}
+
+/*e o hoover, a mudanca da cor de sombra*/
+#um_academico:hover{
+    box-shadow: 5px 10px 8px #909090;
+}
+
+
+/*--------------------começo do terceiro----------------*/
+/*e as caixinhas de empresarial*/
+.grid_empresarial{
+    border-radius: 10px;
+    height: 100%;
+}
+
+/*sao as caixinhas inteiras, caixinhas individuais de empresarial, onde vai a cor roxa e o titulo*/
+.um_empresarial{
+    width: 400px;
+    background-color: rgb(142, 54, 184);
+    border-radius:10px;
+}
+
+/*e a parte branca, onde leva as informaçoes dos planos empresarial*/
+.dois_empresarial{
+    height: 100px;
+    width: 400px;
+    background-color:rgb(78, 27, 107);
+    border-radius:  0 0 10px 10px;
+}
+
+/*e a informaçao, o texto que leva as informaçoes do empresarial*/
+#h2_empresarial{
+  padding-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+/*e a borda das caixinhas do plano empreasarial*/
+.um_empresarial .dois_empresarial{
+    border: 1px solid rgb(68, 21, 100);
+}
+
+/*e a sombra das caixinhas do plano empresarial*/
+#um_empresarial{
+    box-shadow: 5px 10px 8px #505050;
+}
+
+/*e o hoover, a mudança de cor da sombra das caixinhas do plano empresarial*/
+#um_empresarial:hover{
+    box-shadow: 5px 10px 8px #787878;
+}
+
+/*espaçamento entre as caixinhas*/
+/*#espaçamento{
+    margin-left:-300px;
+    margin-right:-300px;
+}*/
+
