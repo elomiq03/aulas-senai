@@ -16,45 +16,62 @@
     gap: 25px;  /*usei o gap para separar os itens*/
     text-align: center;
     margin: 60px; 
-    margin-top: 700px;
+    margin-top: 500px;
     margin-bottom: 550px;
+}
+
+#ferramentas p{
+    display: block;
+    text-align: center;
+    height: 10px;
+}
+
+#ferramentas .avisos p{
+    margin-top: 1px;
 }
 
 /*coloquei cor e borda nas divs*/
 #ferramentas .avisos{ 
-    background-color: rgba(167, 92, 237, 0.463);
-    border: 4px solid rgb(191, 191, 191);
+    background-color:  rgba(167, 92, 237, 0.463);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 15px;
+   width: 400px;
 }
 
 #ferramentas .eventos{
     background-color: rgba(167, 92, 237, 0.463);
-    border: 4px solid rgb(191, 191, 191);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 15px;
+    width: 400px;
+    
 }
 
 #ferramentas .organizacao{
     background-color: rgba(167, 92, 237, 0.463);
-    border: 4px solid rgb(191, 191, 191);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 15px;
+    width: 400px;
 }
 
 #ferramentas .calendario{
     background-color: rgba(167, 92, 237, 0.463);
-    border: 4px solid rgb(191, 191, 191);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 15px;
+    width: 400px;
 }
 
 #ferramentas .planos{
     background-color: rgba(167, 92, 237, 0.463);
-    border: 4px solid rgb(191, 191, 191);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 15px;
+    width: 400px;
 }
 
 #ferramentas .compartilhamento{
     background-color: rgba(167, 92, 237, 0.463);
-    border: 4px solid rgb(177, 177, 177);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 15px;
+    width: 400px;
 }
 
 
@@ -67,73 +84,43 @@
 }
 
 /*adicionei o hover em todas e adicionei tambem o display block para o paragrafo voltar*/
-#item_1:hover p{
-  display: block;
-  text-align: center;
-  height: 10px;
-}
+
 
 #img_eventos{
     max-width: 50px;
     margin: 15px;
 }
 
-#item_2:hover p{
-    display: block;
-    text-align: center;
-    height: 10px;
-  }
 
 #img_organizacao{
     max-width: 50px;
     margin: 15px;
 }
 
-#item_3:hover p{
-    display: block;
-    text-align: center;
-    height: 10px;
-  }
 
 #img_calendario{
     max-width: 50px;
     margin: 15px;
 }
 
-#item_4:hover p{
-    display: block;
-    text-align: center;
-    height: 10px;
-  }
 
 #img_planos{
     max-width: 50px;
     margin: 15px;
 }
 
-#item_5:hover p{
-    display: block;
-    text-align: center;
-    height: 10px;
-
-  }
 
 #img_compartilhamento{
     max-width: 50px;
     margin: 15px;
 }
 
-#item_6:hover p{
-    display: block;
-    text-align: center;
-    height: 10px;
-  }
 
   /*arrumei o tamanho,o padding e a fonte da legenda */
 legend{
     font-size: 15px;
     font-family: verdana;
-    padding-bottom: 10px;
+    
 }
 /*arrumei o tamanho e o display para ela sumir*/
 .paragrafo{
