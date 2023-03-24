@@ -1,15 +1,24 @@
+
+
+
+
+body{
+    background-image:url(./imgcerta.png);
+    background-size: 100%;
+    color: white;
+}
+
 /*início do sobre*/
 
 
 /*arrumando a section class sobre*/
 .sobre{ 
-    background-color: rgba(20, 20, 81, 0.6);
+    background-color: rgba(20, 20, 81, 0.73);
     display: flex;
     max-width: 900px;
     margin-left: 300px;
     border: 10px solid rgba(231, 219, 255, 0.549);
     border-radius: 10px;
-    margin-top: 1200px;
 }
 
 /*h1 class top_1*/
@@ -23,7 +32,7 @@ color: rgb(217, 221, 255);
 .texto_sobre{
 font-size: 20px;
 color: rgb(186, 194, 254);
-padding-top: 10px;
+padding-top: 20px;
 }
 
 /*tamanho da imagem logo*/
@@ -37,3 +46,16 @@ padding-top: 10px;
 padding-top: 50px;
 padding-right:70px;
 }
+
+
+/*início home*/
+
+
+/*imagem fixa no fundo*/
+#imagem_fundo{
+    height: 1200px;
+    width: 1200px;
+}
+
+
+    
