@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEPIN</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/bootstrap.js"></script>
+
+</head>
+
+<header>
+
+  <nav class="navbar navbar-expand-lg" style="color: white; background-color: rgb(255, 255, 173);">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Bootstrap" width="80px" height="80px" style="margin-left: 40px;">
+      </a>
+    </div>
+
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home" style="font-size: 15px; 
+            font-family: Georgia, 'Times New Roman', Times, serif; margin-right: 20px; margin-left: 40px; text-shadow: 
+     -1px -1px 0px #ffd500,
+     -1px 1px 0px #ffd500,
+     1px -1px 0px #ffd500,
+     1px 0px 0px #ffd500; color: #527dff;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="font-size: 15px; 
+            font-family: Georgia, 'Times New Roman', Times, serif; margin-right: 20px; text-shadow: 
+     -1px -1px 0px #ffd500,
+     -1px 1px 0px #ffd500,
+     1px -1px 0px #ffd500,
+     1px 0px 0px #ffd500; color: #527dff;">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="font-size: 15px; 
+            font-family: Georgia, 'Times New Roman', Times, serif; margin-right: 20px;text-shadow: 
+     -1px -1px 0px #ffd500,
+     -1px 1px 0px #ffd500,
+     1px -1px 0px #ffd500,
+     1px 0px 0px #ffd500; color: #527dff;">Atividades</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" style="background-color: rgb(255, 225, 90); border: 1px solid rgb(200, 172, 255); text-shadow: 
+            -1px -1px 0px #ffd500,
+            -1px 1px 0px #ffd500,
+            1px -1px 0px #ffd500,
+            1px 0px 0px #ffd500; color: #527dff;">Buscar</button>
+        </form>
+        <li class="nav-item" style="margin-left: 15px; margin-bottom: 25px;">
+          <button style="background-color: rgb(255, 225, 90); border: 1px solid rgb(189, 133, 240);text-shadow: 
+          -1px -1px 0px #ffd500,
+          -1px 1px 0px #ffd500,
+          1px -1px 0px #ffd500,
+          1px 0px 0px #ffd500; color: #527dff;" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Seja um doador</button>
+        </li>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body style="background-color: rgb(40, 96, 193);">
+  <div class="row" id="home">
+    <div class="img_crianças_texto col-6">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"
+        style=" margin-left: 50px; margin-top: 80px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="images/imga.jpg" class="d-block w-100" alt="..." style="border: solid 1px rgb(176, 161, 0);">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/53.jpg" class="d-block w-100" alt="..." style="border: solid 1px rgb(176, 161, 0);;">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/77.jpg" class="d-block w-100" alt="..." style="border: solid 1px rgb(176, 161, 0);;">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/121.jpg" class="d-block w-100" alt="..." style="border: solid 1px rgb(176, 161, 0);;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-6">
+
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="fst-italic" style=" padding:80px; color: white; margin-top: 100px; text-align: center;
+      font-size: 17px; text-shadow: 
+      -1px -1px 0px #000000,
+     -1px 1px 0px #000000,
+     1px -1px 0px #000000,
+     1px 0px 0px #000000;">O Sepin <br> Serviço de proteção à Infância e adolescência de
+              Itapira é uma OSC - Organização da sociedade
+              Civil - sem fins lucrativos, políticos e religiosos, que atua no município de Itapira a 54 anos tendo como
+              proposta atender crianças, adolescentes e suas famílias, priorizando o atendimento aos que se encontram
+              excluídos de alguma forma dos direitos sociais, ficando expostos a situações de vulnerabilidade social.
+            </p>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <p class="fst-italic" style=" padding:80px; color: white; margin-top: 100px; text-align: center;
+      font-size: 17px; text-shadow: 
+     -1px -1px 0px #000000,
+     -1px 1px 0px #000000,
+     1px -1px 0px #000000,
+     1px 0px 0px #000000; ">Nossa missão é contribuir para a criação de condições e oportunidades a fim de que todas as
+              crianças e
+              adolescentes possam desenvolver plenamente o seu potencial como pessoas e cidadãos, utilizando as
+              atividades
+              sócio educativas como o foco principal de todo esse desenvolvimento humano, despertando-os para a
+              realidade e
+              suas potencialidades de transformação, aprimoramento ético e de cidadania, possibilitando a transformação
+              social
+              que hoje estão inseridos.
+            </p>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <p class="fst-italic" style=" padding:80px; color: white; margin-top: 100px; text-align: center;
+      font-size: 17px; text-shadow: 
+      -1px -1px 0px #000000,
+     -1px 1px 0px #000000,
+     1px -1px 0px #000000,
+     1px 0px 0px #000000;">O Projeto Sepin: <br> Educando para a vida Serviço de convivência e fortalecimento de
+              vínculos de crianças e adolescentes de 6 a 15 anos e suas respectivas famílias. Ações socioeducativas com
+              100
+              crianças/adolescentes, ações sociais e interventivas com 70 famílias, ações sociais e interventivas com a
+              comunidade
+              e acompanhamento educacional. Financiamento de 80 vagas – Promoção Social de Itapira- Chamada Pública; 20
+              vagas
+              – SEPIN.
+            </p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      style="color: white;">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-color: rgb(0, 0, 0);">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">ESTA PENSANDO EM DOAR??</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"> Entre em contato conosco <br>
+                  <br> Seu email:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Messagem:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">SAIR</button>
+            <button type="button" class="btn btn-primary" style="background-color: #ffd500; color: #555308;">MANDAR
+              MENSAGEM</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>
