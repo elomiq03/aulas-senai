@@ -222,6 +222,20 @@
     1px 0px 0px #bb74fe;
 }
 
+#frase_tres_{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif fantasy;
+    font-style: italic;
+    text-shadow: 
+    -1px -1px 0px #bb74fe,
+    -1px 1px 0px #bb74fe,
+    1px -1px 0px #bb74fe,
+    1px 0px 0px #bb74fe;
+    margin-top: 300PX;
+}
+
 /*arrumando posiçoa, cor, font, e 
 curvatura da letra, e as sombras da frase 1 "Não tenho certeza de nada, 
 mas a visão das estrelas me faz sonhar.” - Vincent van Gogh"*/
