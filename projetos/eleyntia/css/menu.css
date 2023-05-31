@@ -1,73 +1,79 @@
-
 /*início header lista*/
 
 
 /*ul class*/
-.menu_ul{
-    display:flex;
+.menu_ul {
+    display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 500px;
 }
 
 /*nav class*/
-.menu{
-    display: flex;  
+.menu {
+    display: flex;
 
 }
 
 /*figure class*/
-.home{
+.home {
     display: flex;
     align-items: center;
 }
 
 /*h1*/
-.univers{
-     font-family: Arial, Helvetica, sans-serif;
-     font-size:x-large;
-     color: white;
+.univers {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white;
 }
 
 /*image logo*/
-#imagem_topo{
+#imagem_topo {
     width: 100px;
     height: 100px;
 }
 
 /*li class*/
-.opcoes{
+.opcoes {
     list-style: none;
-    padding-left: 25px;
+    padding-left: 30px;
     padding-right: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
     color: white;
+
 }
 
 /*li class hover*/
-.opcoes:hover{
-border: rgba(198, 165, 230, 0.895) 1px solid;
-background-color:rgba(213, 170, 255, 0.515);
-border-radius: 3px;
-padding-top: 5px;
-padding-bottom: 5px;
-cursor: pointer;
+.opcoes:hover {
+    border: rgba(156, 82, 230, 0.895) 1px solid;
+    background-color: rgba(151, 76, 225, 0.515);
+    border-radius: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
 }
 
 /*a*/
-.estilo{
+.estilo {
     text-decoration: none;
 }
 
-#menu_fixo{
+#menu_fixo {
     width: 99%;
     display: flex;
     background-color: rgb(105, 38, 176);
     height: 90px;
-   /* border-radius: 0px;*/
+    border-radius: 5px;
     position: fixed;
     margin-top: -7px;
 
-    
+}
+
+#login_menu_ul {
+    border: solid 2px rgb(101, 8, 118);
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
