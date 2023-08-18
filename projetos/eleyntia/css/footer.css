@@ -5,9 +5,9 @@
 
 /* FOOTER*/
 footer {
-    background-color: rgba(0, 0, 0, 0.505);
+    background-color: rgba(131, 10, 211, 0.485);
     /* cor de fundo do footer*/
-    height: 150px;
+    height: 190px;
     /* tamanho (altura) do footer*/
     margin-top: 100px;
     /*margem com relação ao objeto de cima*/
@@ -115,7 +115,7 @@ footer {
 #botao_footer {
     border-radius: 2px;
     /*deixa o botao com as bordas curvadas*/
-    background-color: purple;
+    background-color: rgb(219, 135, 255);
     /*cor do botao*/
 }
 

@@ -25,7 +25,7 @@
 .univers {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /*image logo*/
@@ -47,9 +47,9 @@
 
 /*li class hover*/
 .opcoes:hover {
-    border: rgba(156, 82, 230, 0.895) 1px solid;
-    background-color: rgba(151, 76, 225, 0.515);
-    border-radius: 1px;
+    border: rgba(151, 46, 255, 0.895) 1px solid;
+    background-color: rgba(203, 161, 245, 0.515);
+    border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
     cursor: pointer;
@@ -63,8 +63,8 @@
 #menu_fixo {
     width: 99%;
     display: flex;
-    background-color: rgb(105, 38, 176);
-    height: 90px;
+    background-color: rgb(194, 146, 246);
+    height: 125px;
     border-radius: 5px;
     position: fixed;
     margin-top: -7px;
@@ -72,7 +72,7 @@
 }
 
 #login_menu_ul {
-    border: solid 2px rgb(101, 8, 118);
+    border: solid 2px rgb(98, 5, 114);
     border-radius: 7px;
     padding-top: 5px;
     padding-bottom: 5px;
