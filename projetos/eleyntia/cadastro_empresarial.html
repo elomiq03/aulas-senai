@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="edge">
+    <title>CADASTRE-SE EMPRESARIAL</title>
+    <link rel="stylesheet" href="./css/cadas.css">
+    <link rel="stylesheet" href="./css/sobre_le.css">
+    <link rel="stylesheet" href="./css/menu.css">
+
+</head>
+
+<body>
+    <div id="main-container">
+
+        <!--Início dos campos-->
+
+        <h1>CADASTRE-SE</h1>
+        <form id="register-form" action="">
+            <div class="box move" id="e-mail">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="8"
+                    data-max-length="45" data-email-validate>
+            </div>
+            <div class="half-box spacing move" id="namecomplt">
+                <label for="name">Nome completo</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" data-required data-min-length="3"
+                    data-max-length="40">
+            </div>
+            <div class="half-box spacing move" id="usuario">
+                <label for="name">Nome de usuário</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" data-required data-min-length="3"
+                    data-max-length="40">
+            </div>
+
+            <div class="half-box spacing move" id="CPF">
+                <label for="lastname">CNPJ</label>
+                <input type="text" name="number" id="cnpj" placeholder="99.999.999/9999-99" data-max-length="18"
+                    data-required data-min-length="18" autocomplete="off" onkeyup="cnpjPhone(event)">
+            </div>
+            <div class="half-box spacing move" id="tel">
+                <label for="lastname">Telefone</label>
+                <input type="text" name="number" id="telefone" placeholder="(99)99999-9999" data-max-length="14"
+                    data-required data-min-length="14" autocomplete="off" onkeyup="handlePhone(event)">
+            </div>
+            <div class="half-box spacing move" id="passWord">
+                <label for="lastname">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha" data-required
+                    data-min-length="8" data-password-validate data-required data-max-length="15">
+            </div>
+            <div class="half-box move" id="confirmarsenha">
+                <label for="passconfirmation">Confirmar senha</label>
+                <input type="password" name="passconfirmation" id="passwordconfirmation"
+                    placeholder="Digite novamente sua senha" data-equal="password">
+            </div>
+
+            <div class="full-box move">
+                <input id="btn-submit" type="submit" value="Cadastrar">
+                <input id="button" type="submit" value="Cancelar" onclick="limpaForm()" ;>
+            </div>
+        </form>
+
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/cadastro_empresarial.js"></script>
+</body>
+
+
+</html>

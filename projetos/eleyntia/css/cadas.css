@@ -1,0 +1,117 @@
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+/*todos os inputs e labels*/
+input, label{
+    display: block;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 2px;
+    background-color: #ffffff00;
+    color: #fdebff;
+}
+
+
+a{
+    color: rgb(151, 73, 253);
+}
+
+body{
+    background-color: #f4e6ff;
+}
+
+/*formulário*/
+#main-container{
+    width: 600px;
+    background-color: rgba(96, 67, 162, 0.54);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(193, 193, 193);
+}
+
+/*palavra em cima do formulário*/
+#main-container h1{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+    padding-top: 15px;
+}
+
+
+.half-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+/*todos os campos de input*/
+input{
+    border-bottom: 2px solid #ffffff;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: black;
+}
+/*quando selecionar os inputs altera a cor*/
+input:focus{
+    background-color: rgba(220, 205, 255, 0.684);
+}
+/*botão*/
+input[type="submit" ] {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(151, 100, 210);
+    color: #fff;
+}
+
+/*hover do botão*/
+input[type="submit"]:hover{
+opacity: 0.5;
+}
+
+#agreement,
+#agreement-label {
+    display: inline-block;
+    width: auto;
+}
+#agreement {
+    margin-right: 10px;
+}
+
+/*mensagens que aparecem nos inputs*/
+::placeholder{
+    color: #ffffff9b;
+}
+
+/*div dos botões*/
+.full-box{
+    width: 300px;
+   padding-left: 0px;
+   display: flex;
+   margin-left: 150px;
+}
+
+/*botão cadastrar*/
+#btn-submit{
+  margin-right: 40px;
+}
+
+/*div de cada campo*/
+.move{
+    height: 60px;
+    margin-top: 7px;
+}
+
+/*mensagens de erro da tela*/
+p{
+font-size: 11px;
+margin-top: -18px;
+}
