@@ -1,0 +1,147 @@
+
+body {
+    background-image:
+        /* url(./img/fundotop.jpeg),*/
+        url(./Design\ sem\ nome.jpg);
+    background-size: 100%;
+    color: white;
+    background-repeat: no-repeat,
+
+
+}
+
+
+
+/*---------LOGIN--------*/
+
+   
+   /*cor da parte de cima, cor de onde fica login e o logo*/
+   .informaçoes {
+       background-color: rgba(79, 27, 109, 0.532);
+       border: solid 1px rgb(184, 184, 184);
+       border-radius: 5px;
+       width: 75%;
+       height: 100px;
+   }
+   
+   /*cor da segunda parte,parte onde fica o formulario,os input*/
+   .container {
+       background-color: rgba(74, 8, 149, 0.495);
+       border: solid 1px rgb(193, 193, 193);
+       border-radius: 5px;
+       margin-top: 10px;
+       width: 75%;
+       height: 350px;
+       display: flex;
+       justify-content: center;
+   }
+   
+   /*mexendpo no h1, no titulo LOGIN da parte de cima*/
+   .informaçoes h1 {
+       font-size: 35px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       margin-top: -60px;
+       margin-left: 240px;
+   }
+   
+   /*mexendo na section, onde tudo fica, mxendo na posiçao, tamanho*/
+   .login {
+       max-width: 55%;
+       margin-left: 440px;
+       margin-top: 125px;
+   }
+   
+   /*mexendo no tamanho da imagem,logo*/
+   #img_login {
+       max-width: 15%;
+   }
+   
+   /*deixando um do lado do outro*/
+   #img_h1 {
+       display: flex;
+   }
+   
+   /*estilizando os input*/
+   .container input {
+    margin-left: 30px;
+       width: 400px;
+       max-height: 40%;
+       padding: 10px;
+       border: solid 1px grey;
+       border-radius: 5px;
+   }
+   
+   /*colocando as coisas em login*/
+   #formulario_login {
+   
+       margin-left: 60px;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .div_login{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+   }
+
+   /*laabel do primeiro formulario,estilizaçao*/
+   .label_login {
+       padding: 15px;
+       margin-top: 15px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 15px;
+   
+   }
+   
+   /*texto do primeiro formulario*/
+   .container #h2_login {
+       margin-left: 130px;
+       font-size: 20px;
+       margin-top: 1px;
+   }
+   
+   /*link do 1 formulario*/
+   #loginhonho {
+       margin-left: 100px;
+       color: white;
+   
+   }
+   
+   #a_login {
+       margin-left: 50px;
+       color: white;
+   
+   }
+   
+/*mexendo no botao,estilizando, 1 pagina*/
+#btn-submit {
+    margin-left: 130px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 35%;
+    padding: 10px;
+    color: black;
+    background-color: rgb(218, 177, 255);
+    border: solid 1px rgb(184, 184, 184);
+    border-radius: 7px;
+}
+
+/*mudando a cor quando passa,1 pagina*/
+#btn-submit:hover {
+    background-color: rgb(165, 92, 221);
+}
+
+#error{
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 5px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#icon {
+    max-width: 100%;
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Compativel com paginas de navegação (ex: google, edge...)-->
+    <title>Form de Registro com Validações em JS</title>
+    <link rel="stylesheet" href="./css/paginaDePag.css">
+</head>
+
+<body>
+   
+    <div id="main-container">
+        <h1>Cadastre os dados para pagamento</h1>
+        <form id="register-form" action="">
+            
+
+            <div class="half-box spacing"> 
+                <label for="name">Nome no cartão</label>
+                <input type="text" name="name" id="nameCard" placeholder="Digite o nome que esta no cartão" data-only-letters data-required data-min-length="3" data-max-length="40">
+            </div>
+
+            <div class="half-box spacing">
+                <label for="name">Número do cartão</label>
+                <input type="text" name="name" id="numberCardMask" placeholder="Digite o número do cartão" onkeyup="numberMask(event)" data-required data-min-length="19" data-max-length="19">
+            </div>
+
+            <div class="half-box spacing">
+                <label for="name">Data de validade</label>
+                <input type="datetime" name="name" id="dateCardMask" placeholder="Digite a data de validade do seu cartão" onkeyup="dateCard(event)" data-required data-min-length="5" data-max-length="5">
+            </div>
+            
+            <div class="half-box spacing">
+                <label for="name">CVC</label>
+                <input type="text" name="name" id="cvcCard" passwordvalidate placeholder="Digite o CVC do seu cartão" data-required data-min-length="3" data-max-length="3">
+            </div>
+
+            <div class="full-box">
+                <input id="btn-submit" type="submit" value="Registrar">
+                <input id="button" type="button" value="Cancelar" onclick="limpaForm()";>
+            </div>
+
+
+        </form>
+
+    </div>
+
+        <p class="error-validation template"></p>
+        <script src="js/paginaDePag.js"></script>
+    
+</body>
+
+
+</html>
