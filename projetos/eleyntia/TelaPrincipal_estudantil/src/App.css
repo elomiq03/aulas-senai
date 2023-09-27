@@ -1,0 +1,424 @@
+
+/*------------------ CÓDIGO DO BOOTSTRAP QUE VEIO JUNTO ----------------------------*/
+
+.offcanvas {
+  background-color: rgb(0, 0, 0);
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/*------------------ CSS PAGINA PRINCIPAL -------------------------------------------------------------------*/
+
+/*--- TODO O CABEÇARIO DA PAGINA ---*/
+.CorpoBody {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.822);
+  height: 250px;
+  width: 1525px;
+  margin-left: -30px;
+  margin-top: -370px;
+  background-image: url(./assets/const2.png);
+  opacity: 2;
+}
+
+/*---PARTE DE CIMA DO CABEÇARIO DA PAGINA (USUÁRIO) ---*/
+.cabecario {
+  height: 75%;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+}
+
+/*--- TEXTO (NOME DA LISTA E TIPO DA LISTA) ---*/
+.titulo {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: -25px;
+  margin-left: 10px;
+}
+
+/*--- H1 COM O NOME DA LISTA ---*/
+.titulo H1 {
+  font-size: 35px;
+ 
+}
+
+/*--- BOTÃO QUE ABRE O MENU LATERAL DO LADO DO TEXTO ---*/
+.botaoMenuLateral{
+  background-color: purple;
+  height: 20px;
+  width: 20px;
+  margin-left: 40px;
+  border: 1px solid purple;
+  margin-top: -60px;
+}
+
+/*--- IMAGEM EM CIMA DO BOTÃO QUE ABRE O MENU LATERAL ---*/
+.imgMenuLateral{
+  width: 50px;
+  margin-top: -30px;
+  margin-left: -24px;
+}
+
+/*--- SEGUNDA PARTE DO CABEÇARIO (BARRA COM ITENS ESCOLHER MÊS, PESQUISAR E CONVIDAR ---*/
+.barra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid purple;
+  height: 25%;
+  width: 100%;
+  align-items: center;
+}
+
+/*--- CSS DA PARTE DE ESCOLHER MÊS ---*/
+.mesCalendario {
+  height: 70%;
+  background-color: rgba(171, 54, 207, 0.692);
+  width: 15%;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid white;
+  color: white;
+}
+
+/*---INPUT DE PESQUISA  ---*/
+#inputPesquisar {
+  width: 550px;
+  height: 70%;
+  border-radius: 30px;
+  border: 1px solid rgba(171, 54, 207, 0.692);
+  background-color: rgba(255, 255, 255, 0.579);
+}
+
+/*--- DIV COM A IMAGEM COM O SIMBOLO DE PESQUISA ---*/
+.imgDivPesquisar {
+  height: 70%;
+  background-color: rgba(171, 54, 207, 0.692);
+  width: 57px;
+  border-radius: 40px;
+  border: 1px solid white;
+  margin-left: -140px;
+}
+
+/*--- IMAGEM COM SIMBOLO DE PESQUISAR ---*/
+.imgPesquisar {
+  height: 80%;
+  margin-top: 3px;
+}
+
+/*--- BOTÃO COMPARTILHAR  ---*/
+.buttonHeaderCorpo {
+  width: 200px;
+  border-radius: 30px;
+  height: 70%;
+  background-color: rgba(171, 54, 207, 0.692);
+  border: 1px solid white;
+  color: white;
+}
+
+/*--------------------------- SEGUNDO PARTE DO CORPO (IMAGEM DO CALENDARIO) ---*/
+
+/*--- MAIN COM A IMAGEM DO CALENDARIO---*/
+.mainImgBody{
+  height: 100px;
+  width: 1525px;
+  margin-left: -30px;
+}
+
+/*--- IMAGEM DO CALENDARIO ---*/
+.mainImgBody img {
+  width: 100%;
+}
+
+
+/*--------------------- CSS MENU LATERAL ------------------------------------------------------------------*/
+
+/*mexendo no titulo*/
+.titulos_menu {
+  font-size: 15px;
+}
+
+/*tirando configuraçoes pre existentes*/
+button.btn.btn-primary {
+  background-color: transparent;
+  border: none;
+}
+
+/*deixando um do lado do outro e alinhados*/
+.bg-body-tertiary {
+  display: flex;
+  align-items: center;
+}
+
+/*arrumando posiçao*/
+.d-inline-block-align-top {
+  margin-right: 10px;
+
+}
+
+/*arrumando as img bolinha*/
+.img_comp {
+  margin-left: 20px;
+}
+
+.img_compp {
+  margin-left: 40px;
+}
+
+.texto_comp {
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 15px;
+
+}
+
+/*arrumando posiçoes e tirando config antigas*/
+button.btn.btn-primary {
+  padding: 0px;
+}
+
+nav.bg-body-tertiary.navbar.navbar-expand.navbar-light {
+  margin-bottom: 5px;
+}
+
+nav.bg-body-tertiary.navbar.navbar-expand.navbar-light {
+  margin-top: 5px;
+}
+
+section.navbar\.comp {
+  margin-top: 5px;
+}
+
+.offcanvas-title.h5 {
+  margin-right: 100px;
+}
+
+.imgfootermenu2 {
+  margin-left: 90px;
+}
+
+.imgfootermenu {
+  margin-left: 30px;
+}
+
+/*alterando cor*/
+.offcanvas.offcanvas-start.show {
+  background-color: rgb(37, 37, 37);
+}
+
+.offcanvas-title.h5 {
+  color: white;
+}
+
+/*mexendo nas cores e tamnhos da letra*/
+nav.bg-body-tertiary.navbar.navbar-expand.navbar-light {
+  background: rgb(45, 45, 45) !important;
+}
+
+a.navbar\.comp.navbar-brand {
+  color: white;
+  font-size: 15px;
+}
+
+#teste {
+  background-color: rgb(45, 45, 45) !important;
+  color: white;
+}
+
+
+
+/*-------------------------------- CSS FORMULARIO -------------------------------------*/
+
+/*arrumando as cores de todas as palavras do site*/
+/*INÍCIO*/
+.adic.modal-header {
+  color: whitesmoke;
+}
+
+.modal-title{
+  margin-left: 145px;
+}
+input#exampleForm\.ControlInput1 {
+  background: #F1E2F1;
+}
+textarea#exampleForm\.ControlTextarea1 {
+  background: #F1E2F1;
+}
+.white.offcanvas-title.h5 {
+  color: whitesmoke;
+}
+a.white.navbar-brand {
+  color: whitesmoke;
+}
+/*FIM*/
+
+/*/Tamanho das imagens*/
+img.imgs  {
+  height: 30px;
+  width: 35px;
+}
+/*cor roxa no topo do formulário*/
+.adic {
+  background-color: rgb(195, 132, 255);
+}
+
+.imgs {
+  height: 25px;
+  width: 20px;
+}
+
+/*config do botão criar*/
+button.white.btn.btn-primary {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 180px;
+  background: #9E51CD;
+}
+
+/*removendo as configurações que vieramdo bootstrap para o botão*/
+.container button.primary.btn.btn-primary {
+  background: transparent;
+  border: none;
+}
+/*imagem do botão criar*/
+.buttonCriarImg{
+  width: 25px;
+  margin-top: -8px;
+  margin-left: 18px;
+}
+
+
+
+/*------------------------ Vizualizar Tarefas ----------------------------------------*/
+
+
+/* PARTE DE CIMA DOMODAL, COM A DATA */
+.cabecarioCheck{
+  background-color: #C568FF;
+  color: white;
+}
+
+/*DATA */
+.NameVizTarefa{
+  margin-left: 100px;
+}
+
+/* DIV COM CADA TAREFA DENTRO*/
+.boxData{
+  justify-content: space-around;
+}
+
+/*DIV COM A IMAGEM DE CHECKLIST*/
+.DivImgCheck{
+  height: 40px;
+  width: 50px;
+}
+
+/* IMG CHECK LIST*/
+.imgCheckList{
+  width: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/*DIV COM OS ITENS DE CADA TAREFA DENTRO*/
+.itemTarefa{
+  display: flex;
+  flex-direction: row;
+  background-color:#F1E2F1;
+  border-radius: 30px;
+  margin-top: 20px;
+  height: 40px;
+  align-items: center;
+  
+}
+
+/* TEXTO DE DE CADA TAREFA*/
+.itemTarefa h2{
+color: #A6A4A4;
+font-size: 20px;
+margin-left: 20px;
+}
+
+/* BOTÃO DE 'SALVAR' AS MUDANÇAS*/
+.BtnVerTarefa{
+  width: 115px;
+  background-color: #9E51CD;
+  border-radius: 30px;
+  border: #760587 1px solid;
+  margin-right: 185px;
+}
+
+/*HOVER DO BOTÃO SALVAR*/
+.BtnVerTarefa:hover{
+  background-color: #760587;
+}
+
+/* CSS DO BOTÃO QUE A GENTE CLICA PARA ABRIR O VIZUALIZAR TAREFAS*/
+.buttonVizualizar{
+  margin-top: -195px;
+  width: 20px;
+  margin-left: 310px;
+}
+
+
+
+
+
+
+
+
+
+
+
