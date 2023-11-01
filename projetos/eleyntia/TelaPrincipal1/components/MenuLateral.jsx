@@ -4,8 +4,8 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import ComponentesRepetentes from '../components/ComponentesRepetentes';
 import ComponenteFooter from './ComponenteFooter';
 import ComponentesFilhos from './ComponentesFilhos'
-
 import ComponentesMenu from './ComponentesMenu';
+import Criarcategoria from './CriarCategoria';
 
 
 function MenuLateral({ name, ...props }) {
@@ -35,11 +35,13 @@ function MenuLateral({ name, ...props }) {
                     {/*A partir disto, da qui pra baixo chama-se um componente  repetente e da uma img e um p a eles, logo em baixo se chama 
                     um componente filho colocando sua imagem e p e assim por 4 vezes e por ultimo se faz a mesma coisa com o footer,ele recebe 
                     sua img de icones e seu texto p*/}
+ <div className='frente'>                
                     <ComponentesRepetentes
-                        name="Minhas Listas +"
+                        name="Minhas Listas "
                         imageUrl="https://cdn-icons-png.flaticon.com/128/2209/2209139.png?uid=R77723682&ga=GA1.1.135938526.1694621849"
                     />
-
+                      <Criarcategoria  texto1="Nome da lista" texto2="Ícone"/>
+</div>   
                     <ComponentesFilhos
                         titulo="'Nome Da Sua Lista'"
                         logo="https://cdn-icons-png.flaticon.com/128/4625/4625353.png?ga=GA1.1.135938526.1694621849" />
@@ -61,10 +63,14 @@ function MenuLateral({ name, ...props }) {
                         titulo="'Hoje vai bla bla bla'"
                         logo="https://cdn-icons-png.flaticon.com/128/4625/4625353.png?ga=GA1.1.135938526.1694621849" />
 
+  <div className='frente espaço scr'>
                     <ComponentesRepetentes
-                        name="Categorias +"
-                        imageUrl="https://cdn-icons-png.flaticon.com/128/5114/5114213.png?ga=GA1.1.135938526.1694621849" />
-
+                        name= "Categorias" 
+                        imageUrl="https://cdn-icons-png.flaticon.com/128/5114/5114213.png?ga=GA1.1.135938526.1694621849"
+                       />  <Criarcategoria texto1="Nome da categoria" texto2="Cor"/>
+   </div>                 
+                       
+                    
                     <ComponentesFilhos
                         titulo="'Escola'"
                         logo="https://cdn-icons-png.flaticon.com/128/4625/4625353.png?ga=GA1.1.135938526.1694621849" />

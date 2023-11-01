@@ -14,8 +14,8 @@ function Formulario() {
   return (
     <>
      {/*É o botão para abrir o formulário*/}
-      <Button  className='buttonCriar' variant="primary" onClick={handleShow}>
-        <img className='buttonCriarImg' src="https://cdn-icons-png.flaticon.com/128/7054/7054629.png?uid=R77723682&ga=GA1.1.135938526.1694621849" alt="" />
+      <Button   variant="primary" onClick={handleShow}>
+        <img className='adicionar' src="https://cdn-icons-png.flaticon.com/128/7054/7054629.png?uid=R77723682&ga=GA1.1.135938526.1694621849" alt="" />
       </Button>
       <Modal show={show} onHide={handleClose}>
          {/*Título do formulário*/}
@@ -32,25 +32,25 @@ function Formulario() {
               />
               <Form.Label className='white'>Título da tarefa </Form.Label>
               <Form.Control
-                type="test"
+                type="text"
                 placeholder="Adicione o título da tarefa"
                 autoFocus
               />
               <Form.Label className='white'>Categoria </Form.Label>
               <Form.Control
-                type="test"
+                type="text"
                 placeholder="Adicione uma categoria"
                 autoFocus
               />
               <Form.Label className='white'>Atribuir </Form.Label>
               <Form.Control
-                type="test"
+                type="text"
                 placeholder="Atribuir a tarefa "
                 autoFocus
               />
               <Form.Label className='white'>Classificação </Form.Label>
               <Form.Control
-                type="test"
+                type="text"
                 placeholder="Classifique"
                 autoFocus
               />
